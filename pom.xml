@@ -13,6 +13,7 @@
         <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring-data-cassandra.version>2.1.5.RELEASE</spring-data-cassandra.version>
     </properties>
     <build>
         <plugins>
@@ -37,6 +38,11 @@
             <scope>compile</scope>
         </dependency>
         <!--Cassandra-->
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-cassandra</artifactId>
+            <version>${spring-boot.version}</version>
+        </dependency>
       <!--  <dependency>
             <groupId>com.datastax.cassandra</groupId>
             <artifactId>cassandra-driver-core</artifactId>
