@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
     <name>cassandra-tutorial</name>
     <properties>
-        <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-data-cassandra.version>2.1.5.RELEASE</spring-data-cassandra.version>
